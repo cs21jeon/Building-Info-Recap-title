@@ -26,6 +26,6 @@ app.get("/brrecaptitleinfo", function (req: any, res: any) {
 
 app.listen(3000, function () {
   console.log(
-    "http://127.0.0.1:3000/brrecaptitleinfo?sigunguCd=11680&bjdongCd=10300&bun=0012&ji=0000&serviceKey=QOAQrY8Oy2Rp807LlzW8HXV%2BxRK1KRF36oLmg4NXU4%2B%2FxzxPd4oPrDcBJeXbJX9EPpqD5gayASrD482an%2FBlqg%3D%3D app listening on port 3000!"
+    "http://127.0.0.1:3000/brrecaptitleinfo?sigunguCd=11680&bjdongCd=10300&bun=0012&ji=0000&numOfRows=10&pageNo=1&serviceKey=QOAQrY8Oy2Rp807LlzW8HXV%2BxRK1KRF36oLmg4NXU4%2B%2FxzxPd4oPrDcBJeXbJX9EPpqD5gayASrD482an%2FBlqg%3D%3D app listening on port 3000!"
   );
 });
